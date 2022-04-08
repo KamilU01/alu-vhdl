@@ -1,0 +1,86 @@
+# Copyright (C) 2021  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+# File: D:\vhdl\tst2\tst2.csv
+# Generated on: Fri Apr  8 17:07:49 2022
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage,Strict Preservation
+A[15],Input,,,,PIN_P7,,,,,,,,,,,,,,
+A[14],Input,,,,PIN_M7,,,,,,,,,,,,,,
+A[13],Input,,,,PIN_V9,,,,,,,,,,,,,,
+A[12],Input,,,,PIN_T7,,,,,,,,,,,,,,
+A[11],Input,,,,PIN_Y9,,,,,,,,,,,,,,
+A[10],Input,,,,PIN_W9,,,,,,,,,,,,,,
+A[9],Input,,,,PIN_N6,,,,,,,,,,,,,,
+A[8],Input,,,,PIN_T8,,,,,,,,,,,,,,
+A[7],Input,,,,PIN_P12,,,,,,,,,,,,,,
+A[6],Input,,,,PIN_M8,,,,,,,,,,,,,,
+A[5],Input,,,,PIN_AB6,,,,,,,,,,,,,,
+A[4],Input,,,,PIN_AB7,,,,,,,,,,,,,,
+A[3],Input,,,,PIN_V6,,,,,,,,,,,,,,
+A[2],Input,,,,PIN_U6,,,,,,,,,,,,,,
+A[1],Input,,,,PIN_V10,,,,,,,,,,,,,,
+A[0],Input,,,,PIN_Y10,,,,,,,,,,,,,,
+B[15],Input,,,,PIN_R9,,,,,,,,,,,,,,
+B[14],Input,,,,PIN_AA15,,,,,,,,,,,,,,
+B[13],Input,,,,PIN_AA14,,,,,,,,,,,,,,
+B[12],Input,,,,PIN_V15,,,,,,,,,,,,,,
+B[11],Input,,,,PIN_U13,,,,,,,,,,,,,,
+B[10],Input,,,,PIN_Y14,,,,,,,,,,,,,,
+B[9],Input,,,,PIN_U11,,,,,,,,,,,,,,
+B[8],Input,,,,PIN_M9,,,,,,,,,,,,,,
+B[7],Input,,,,PIN_AA10,,,,,,,,,,,,,,
+B[6],Input,,,,PIN_T12,,,,,,,,,,,,,,
+B[5],Input,,,,PIN_AB13,,,,,,,,,,,,,,
+B[4],Input,,,,PIN_AB12,,,,,,,,,,,,,,
+B[3],Input,,,,PIN_AB8,,,,,,,,,,,,,,
+B[2],Input,,,,PIN_T9,,,,,,,,,,,,,,
+B[1],Input,,,,PIN_Y11,,,,,,,,,,,,,,
+B[0],Input,,,,PIN_AA9,,,,,,,,,,,,,,
+BCD[6],Output,,,,PIN_AB11,,,,,,,,,,,,,,
+BCD[5],Output,,,,PIN_AB15,,,,,,,,,,,,,,
+BCD[4],Output,,,,PIN_R10,,,,,,,,,,,,,,
+BCD[3],Output,,,,PIN_R12,,,,,,,,,,,,,,
+BCD[2],Output,,,,PIN_R11,,,,,,,,,,,,,,
+BCD[1],Output,,,,PIN_AB10,,,,,,,,,,,,,,
+BCD[0],Output,,,,PIN_U12,,,,,,,,,,,,,,
+C,Output,,,,PIN_U10,,,,,,,,,,,,,,
+clk,Input,,,,PIN_M16,,,,,,,,,,,,,,
+LDF,Input,,,,PIN_R5,,,,,,,,,,,,,,
+S,Output,,,,PIN_P9,,,,,,,,,,,,,,
+Salu[3],Input,,,,PIN_R7,,,,,,,,,,,,,,
+Salu[2],Input,,,,PIN_P8,,,,,,,,,,,,,,
+Salu[1],Input,,,,PIN_AB5,,,,,,,,,,,,,,
+Salu[0],Input,,,,PIN_M6,,,,,,,,,,,,,,
+Y[15],Output,,,,PIN_Y17,,,,,,,,,,,,,,
+Y[14],Output,,,,PIN_T10,,,,,,,,,,,,,,
+Y[13],Output,,,,PIN_AB18,,,,,,,,,,,,,,
+Y[12],Output,,,,PIN_Y15,,,,,,,,,,,,,,
+Y[11],Output,,,,PIN_W8,,,,,,,,,,,,,,
+Y[10],Output,,,,PIN_U8,,,,,,,,,,,,,,
+Y[9],Output,,,,PIN_AA13,,,,,,,,,,,,,,
+Y[8],Output,,,,PIN_U7,,,,,,,,,,,,,,
+Y[7],Output,,,,PIN_AA7,,,,,,,,,,,,,,
+Y[6],Output,,,,PIN_N8,,,,,,,,,,,,,,
+Y[5],Output,,,,PIN_AA8,,,,,,,,,,,,,,
+Y[4],Output,,,,PIN_P6,,,,,,,,,,,,,,
+Y[3],Output,,,,PIN_T13,,,,,,,,,,,,,,
+Y[2],Output,,,,PIN_N9,,,,,,,,,,,,,,
+Y[1],Output,,,,PIN_AA12,,,,,,,,,,,,,,
+Y[0],Output,,,,PIN_V13,,,,,,,,,,,,,,
+Z,Output,,,,PIN_R6,,,,,,,,,,,,,,
