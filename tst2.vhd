@@ -5,7 +5,7 @@ entity tst2 is
 port (
       A : in signed(15 downto 0);
       B : in signed(15 downto 0);
-      Salu : in bit_vector (3 downto 0);
+      Salu : in bit_vector (4 downto 0);
       LDF : in bit;
       clk : in bit;
       Y : out signed (15 downto 0);
@@ -27,22 +27,27 @@ begin
          CC(0) := CF;
          CC(16 downto 1) := "0000000000000000";
          case Salu is
-             when "0000" => res := AA;
-             when "0001" => res := BB;
-             when "0010" => res := AA + BB;
-             when "0011" => res := AA - BB;
-             when "0100" => res := AA or BB;
-             when "0101" => res := AA and BB;
-             when "0110" => res := AA xor BB;
-             when "0111" => res := AA xnor BB;
-             when "1000" => res := not AA;
-             when "1001" => res := -AA;
-             when "1010" => res := "00000000000000000";
-             when "1011" => res := AA + BB + CC;
-             when "1100" => res := AA + BB - CC;
-             when "1101" => res := AA + 1;
-             when "1110" => res := shift_left(AA, 1);
-             when "1111" => res := shift_right(AA, 1);
+             when "00000" => res := AA;
+             when "00001" => res := BB;
+             when "00010" => res := AA + BB;
+             when "00011" => res := AA - BB;
+             when "00100" => res := AA or BB;
+             when "00101" => res := AA and BB;
+             when "00110" => res := AA xor BB;
+             when "00111" => res := AA xnor BB;
+             when "01000" => res := not AA;
+             when "01001" => res := -AA;
+             when "01010" => res := "00000000000000000";
+             when "01011" => res := AA + BB + CC;
+             when "01100" => res := AA + BB - CC;
+             when "01101" => res := AA + 1;
+             when "01110" => res := shift_left(AA, 1);
+             when "01111" => res := shift_right(AA, 1);
+             when "10000" => res := AA rol 1;
+             when "10001" => res := AA ror 1;
+             when "10010" => res := AA nor BB;
+             when "10011" => res := AA nand BB;
+	 when others => null;
          end case;
 			
          Y <= res(15 downto 0);
